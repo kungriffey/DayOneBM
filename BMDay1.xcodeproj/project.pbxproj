@@ -66,6 +66,7 @@
 		2A1FCDBE1AD3106A00142B05 = {
 			isa = PBXGroup;
 			children = (
+				2A1FCDF31AD31A4B00142B05 /* Model */,
 				2A1FCDC91AD3106B00142B05 /* BMDay1 */,
 				2A1FCDE31AD3106B00142B05 /* BMDay1Tests */,
 				2A1FCDC81AD3106B00142B05 /* Products */,
@@ -91,7 +92,6 @@
 				2A1FCDD41AD3106B00142B05 /* Main.storyboard */,
 				2A1FCDD71AD3106B00142B05 /* Images.xcassets */,
 				2A1FCDD91AD3106B00142B05 /* LaunchScreen.xib */,
-				2A1FCDF31AD31A4B00142B05 /* Model */,
 				2A1FCDCA1AD3106B00142B05 /* Supporting Files */,
 			);
 			path = BMDay1;
@@ -130,7 +130,6 @@
 				2A1FCDF11AD31A3900142B05 /* SocialFeature.m */,
 			);
 			name = Model;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
