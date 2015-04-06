@@ -14,6 +14,7 @@
 		2A1FCDD81AD3106B00142B05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A1FCDD71AD3106B00142B05 /* Images.xcassets */; };
 		2A1FCDDB1AD3106B00142B05 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A1FCDD91AD3106B00142B05 /* LaunchScreen.xib */; };
 		2A1FCDE71AD3106B00142B05 /* BMDay1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FCDE61AD3106B00142B05 /* BMDay1Tests.m */; };
+		2A1FCDF21AD31A3900142B05 /* SocialFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FCDF11AD31A3900142B05 /* SocialFeature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2A1FCDE01AD3106B00142B05 /* BMDay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMDay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A1FCDE51AD3106B00142B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1FCDE61AD3106B00142B05 /* BMDay1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMDay1Tests.m; sourceTree = "<group>"; };
+		2A1FCDF01AD31A3900142B05 /* SocialFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocialFeature.h; path = BMDay1Tests/SocialFeature.h; sourceTree = "<group>"; };
+		2A1FCDF11AD31A3900142B05 /* SocialFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocialFeature.m; path = BMDay1Tests/SocialFeature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		2A1FCDBE1AD3106A00142B05 = {
 			isa = PBXGroup;
 			children = (
+				2A1FCDF31AD31A4B00142B05 /* Model */,
 				2A1FCDC91AD3106B00142B05 /* BMDay1 */,
 				2A1FCDE31AD3106B00142B05 /* BMDay1Tests */,
 				2A1FCDC81AD3106B00142B05 /* Products */,
@@ -117,6 +121,15 @@
 				2A1FCDE51AD3106B00142B05 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A1FCDF31AD31A4B00142B05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A1FCDF01AD31A3900142B05 /* SocialFeature.h */,
+				2A1FCDF11AD31A3900142B05 /* SocialFeature.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A1FCDE71AD3106B00142B05 /* BMDay1Tests.m in Sources */,
+				2A1FCDF21AD31A3900142B05 /* SocialFeature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
